@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ["@nuxtjs/i18n"],
+  extends: ['@nuxt/ui-pro'],
+  modules: ["@nuxtjs/i18n", "@nuxt/ui"],
   i18n: {
     locales: [
       {
