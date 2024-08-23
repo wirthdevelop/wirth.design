@@ -8,7 +8,6 @@ export default {
         name: "Michael Wirth",
         street: "Jugendherberge 1",
         city: "DE 34590 Wabern",
-        email: "michael@wirth.design"
     },
     legal: {
         title: "Impressum",
@@ -45,8 +44,6 @@ export default {
         responsibleBody: {
             title: "2. Verantwortliche Stelle",
             subtitle: "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
-            name: "Michael Wirth",
-            email: "michael@wirth.design",
             info: "Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet."
         },
         dataCollection: {

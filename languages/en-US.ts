@@ -8,7 +8,6 @@ export default {
         name: "Michael Wirth",
         street: "Jugendherberge 1",
         city: "DE 34590 Wabern",
-        email: "michael@wirth.design"
     },
     legal: {
         title: "Imprint",
@@ -45,8 +44,6 @@ export default {
         responsibleBody: {
             title: "2. Responsible Body",
             subtitle: "The responsible body for data processing on this website is:",
-            name: "Michael Wirth",
-            email: "michael@wirth.design",
             info: "The responsible body is the natural or legal person who alone or jointly with others decides on the purposes and means of processing personal data."
         },
         dataCollection: {
