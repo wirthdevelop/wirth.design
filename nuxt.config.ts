@@ -18,5 +18,8 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: 'languages',
     defaultLocale: 'de'
+  },
+  ui: {
+    global: true
   }
 })
