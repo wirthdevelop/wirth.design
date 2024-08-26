@@ -1,7 +1,7 @@
 export default {
     root: {
-        title: "Hallo, ",
-        description: "ich bin Michael! Schön, dass du hier bist. Ich bin Grafikdesigner, Illustrator und Softwareentwickler.",
+        title: "Designer & Developer.",
+        description: "Hallo, ich bin Michael! Schön, dass du hier bist. Ich bin Grafikdesigner, Illustrator und Softwareentwickler.",
         allRightsReserved: "Alle Rechte vorbehalten."
     },
     address: {

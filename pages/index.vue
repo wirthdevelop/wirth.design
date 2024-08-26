@@ -22,7 +22,7 @@ const links = [{
     </template>
 
     <template #right>
-        <UButton variant="ghost" icon="i-heroicons-language" color="black"></UButton>
+        <UButton variant="ghost" icon="i-heroicons-language"></UButton>
     </template>
   </UHeader>
 
