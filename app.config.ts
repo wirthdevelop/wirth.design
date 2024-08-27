@@ -3,7 +3,7 @@ export default defineAppConfig({
         primary: 'black',
         landing: {
             hero: {
-                wrapper: 'min-h-[calc(100vh-var(--header-height))]'
+                wrapper: 'test'
             }
         }
     }

@@ -6,6 +6,8 @@ const links = [{
     // label: 'solawi.studio',
     // to: 'https://solawi.wirth.design'
 }]
+
+// Delete UI Pro and build the Component by yourself
 </script>
 
 <template>
