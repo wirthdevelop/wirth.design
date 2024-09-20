@@ -1,9 +1,11 @@
 export default {
     root: {
         title: "wirth.design",
-        description: "Design & Software-Entwicklung.",
+        description: "Design & Software-Entwicklung",
         allRightsReserved: "Alle Rechte vorbehalten."
     },
+    de: "German",
+    en: "English",
     address: {
         name: "Michael Wirth",
         street: "Jugendherberge 1",

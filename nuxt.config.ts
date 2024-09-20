@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  extends: ['@nuxt/ui-pro'],
-  modules: ["@nuxtjs/i18n", "@nuxt/ui"],
+  modules: ['@nuxtjs/i18n', 'vuetify-nuxt-module'],
   i18n: {
     locales: [
       {
@@ -17,9 +16,6 @@ export default defineNuxtConfig({
     ],
     lazy: true,
     langDir: 'languages',
-    defaultLocale: 'de'
+    defaultLocale: 'de',
   },
-  ui: {
-    global: true
-  }
 })
