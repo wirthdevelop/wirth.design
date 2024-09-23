@@ -36,15 +36,16 @@ const changeLanguage = (langCode: any) => {
         {{ $t('root.description') }}
       </VSheet>
     </VMain>
-    
-    <VFooter class="position-absolute bottom-0">
-      <VRow>
-        <VCol>
-          <div class="text-caption font-weight-light">
-            © {{ new Date().getFullYear() }} wirth.design - {{ $t('root.allRightsReserved') }}
-          </div>
-        </VCol>
-      </VRow>
+
+    <VFooter class="position-absolute bottom-0 w-100 d-flex justify-space-between">
+      <div>
+        <div class="text-caption font-weight-light">
+          © {{ new Date().getFullYear() }} wirth.design - {{ $t('root.allRightsReserved') }}
+        </div>
+      </div>
+      <div>
+        <VBtn @click="navigateTo('https://www.linkedin.com/in/michael-wirth-00236b26b/', { external: true, open: { target: '_blank' } })" icon="mdi-linkedin" variant="text"></VBtn>
+      </div>
     </VFooter>
   </VApp>
 </template>
