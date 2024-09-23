@@ -9,8 +9,8 @@ const changeLanguage = (langCode: any) => {
 </script>
 
 <template>
-  <VLayout>
-    <VAppBar>
+  <VApp full-height>
+    <VAppBar scroll-behavior="elevate" absolute>
       <template #title>
         <div class="font-weight-regular">
           wirth.design
@@ -31,10 +31,10 @@ const changeLanguage = (langCode: any) => {
       </template>
     </VAppBar>
 
-    <VMain class="d-flex justify-center align-center h-screen">
-      <div class="text-h1">
+    <VMain class="d-flex justify-center align-center">
+      <VSheet class="font-weight-thin text-h2 text-md-h1 mx-4">
         {{ $t('root.description') }}
-      </div>
+      </VSheet>
     </VMain>
     
     <VFooter class="position-absolute bottom-0">
@@ -46,5 +46,5 @@ const changeLanguage = (langCode: any) => {
         </VCol>
       </VRow>
     </VFooter>
-  </VLayout>
+  </VApp>
 </template>

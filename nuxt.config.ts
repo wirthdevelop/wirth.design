@@ -18,4 +18,21 @@ export default defineNuxtConfig({
     langDir: 'languages',
     defaultLocale: 'de',
   },
+  vuetify: {
+    moduleOptions: {
+      /* module specific options */
+    },
+    vuetifyOptions: {
+      display: {
+        mobileBreakpoint: 'md',
+        thresholds: {
+          xs: 0,
+          sm: 340,
+          md: 540,
+          lg: 800,
+          xl: 1280,
+        },
+      },
+    }
+  }
 })
