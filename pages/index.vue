@@ -3,6 +3,8 @@ import { useI18n } from "vue-i18n";
 
 const { locale, setLocale, locales } = useI18n();
 
+const dialogLegal = ref(false);
+
 const changeLanguage = (langCode: any) => {
   setLocale(langCode);
 };
@@ -31,10 +33,8 @@ const changeLanguage = (langCode: any) => {
       </template>
     </VAppBar>
 
-    <VMain class="d-flex justify-center align-center">
-      <VSheet class="font-weight-thin text-h2 text-md-h1 mx-4">
-        {{ $t('root.description') }}
-      </VSheet>
+    <VMain class="d-flex justify-center mx-4">
+        <LandingPage />
     </VMain>
 
     <VFooter class="position-absolute bottom-0 w-100 d-flex justify-space-between">
@@ -44,8 +44,15 @@ const changeLanguage = (langCode: any) => {
         </div>
       </div>
       <div>
-        <VBtn @click="navigateTo('https://www.linkedin.com/in/michael-wirth-00236b26b/', { external: true, open: { target: '_blank' } })" icon="mdi-linkedin" variant="text"></VBtn>
+        <VBtn @click="dialogLegal = !dialogLegal" variant="text">{{ $t('legal.title') }}</VBtn>
+        <VBtn
+          @click="navigateTo('https://www.linkedin.com/in/michael-wirth-00236b26b/', { external: true, open: { target: '_blank' } })"
+          icon="mdi-linkedin" variant="text"></VBtn>
       </div>
     </VFooter>
+
+    <VDialog v-model="dialogLegal" class="d-flex align-center h-100" max-width="800">
+      <LandingLegalNotice />
+    </VDialog>
   </VApp>
 </template>
