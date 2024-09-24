@@ -43,11 +43,11 @@ const changeLanguage = (langCode: any) => {
         © {{ new Date().getFullYear() }} wirth.design - {{ $t('root.allRightsReserved') }}
       </div>
       <div class="d-flex align-end flex-column">
-        <VBtn @click="dialogLegal = !dialogLegal" variant="text">{{ $t('legal.title') }}</VBtn>
-        <VBtn @click="dialogPrivacyPolicy = !dialogPrivacyPolicy" variant="text">{{ $t('privacyPolicy.title') }}</VBtn>
         <VBtn
           @click="navigateTo('https://www.linkedin.com/in/michael-wirth-00236b26b/', { external: true, open: { target: '_blank' } })"
           icon="mdi-linkedin" variant="text"></VBtn>
+        <VBtn @click="dialogLegal = !dialogLegal" variant="text">{{ $t('legal.title') }}</VBtn>
+        <VBtn @click="dialogPrivacyPolicy = !dialogPrivacyPolicy" variant="text">{{ $t('privacyPolicy.title') }}</VBtn>
       </div>
     </VFooter>
 
