@@ -4,6 +4,7 @@ import { useI18n } from "vue-i18n";
 const { locale, setLocale, locales } = useI18n();
 
 const dialogLegal = ref(false);
+const dialogPrivacyPolicy = ref(false);
 
 const changeLanguage = (langCode: any) => {
   setLocale(langCode);
@@ -33,18 +34,17 @@ const changeLanguage = (langCode: any) => {
       </template>
     </VAppBar>
 
-    <VMain class="d-flex justify-center mx-4">
+    <VMain class="d-flex justify-center">
         <LandingPage />
     </VMain>
 
-    <VFooter class="position-absolute bottom-0 w-100 d-flex justify-space-between">
-      <div>
-        <div class="text-caption font-weight-light">
-          © {{ new Date().getFullYear() }} wirth.design - {{ $t('root.allRightsReserved') }}
-        </div>
+    <VFooter class="position-absolute bottom-0 w-100 d-flex align-end justify-space-between">
+      <div class="text-caption font-weight-light">
+        © {{ new Date().getFullYear() }} wirth.design - {{ $t('root.allRightsReserved') }}
       </div>
-      <div>
+      <div class="d-flex align-end flex-column">
         <VBtn @click="dialogLegal = !dialogLegal" variant="text">{{ $t('legal.title') }}</VBtn>
+        <VBtn @click="dialogPrivacyPolicy = !dialogPrivacyPolicy" variant="text">{{ $t('privacyPolicy.title') }}</VBtn>
         <VBtn
           @click="navigateTo('https://www.linkedin.com/in/michael-wirth-00236b26b/', { external: true, open: { target: '_blank' } })"
           icon="mdi-linkedin" variant="text"></VBtn>
@@ -53,6 +53,9 @@ const changeLanguage = (langCode: any) => {
 
     <VDialog v-model="dialogLegal" class="d-flex align-center h-100" max-width="800">
       <LandingLegalNotice />
+    </VDialog>
+    <VDialog v-model="dialogPrivacyPolicy" class="d-flex align-center h-100" max-width="800">
+      <LandingPrivacyPolicy />
     </VDialog>
   </VApp>
 </template>
