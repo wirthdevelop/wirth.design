@@ -56,13 +56,25 @@ const changeLanguage = (langCode: any) => {
     </VFooter>
 
     <VDialog v-model="dialogLegal" class="d-flex align-center h-100" max-width="800">
-      <LandingLegalNotice />
+      <LandingLegalNotice>
+        <template #titleAppend>
+          <VBtn @click="dialogLegal = false" icon="mdi-close" variant="text"></VBtn>
+        </template>
+      </LandingLegalNotice>
     </VDialog>
     <VDialog v-model="dialogCopyright" class="d-flex align-center h-100" max-width="800">
-      <LandingCopyright />
+      <LandingCopyright>
+        <template #titleAppend>
+          <VBtn @click="dialogCopyright = false" icon="mdi-close" variant="text"></VBtn>
+        </template>
+      </LandingCopyright>
     </VDialog>
     <VDialog v-model="dialogPrivacyPolicy" class="d-flex align-center h-100" max-width="800">
-      <LandingPrivacyPolicy />
+      <LandingPrivacyPolicy>
+        <template #titleAppend>
+          <VBtn @click="dialogPrivacyPolicy = false" icon="mdi-close" variant="text"></VBtn>
+        </template>
+      </LandingPrivacyPolicy>
     </VDialog>
   </VApp>
 </template>
