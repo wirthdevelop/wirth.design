@@ -55,24 +55,27 @@ const changeLanguage = (langCode: any) => {
       </div>
     </VFooter>
 
-    <VDialog v-model="dialogLegal" class="d-flex align-center h-100" max-width="800">
+    <VDialog v-model="dialogLegal" scrollable class="d-flex align-center h-100" max-width="800">
       <LandingLegalNotice>
-        <template #titleAppend>
-          <VBtn @click="dialogLegal = false" icon="mdi-close" variant="text"></VBtn>
+        <template #actions>
+          <VSpacer />
+          <VBtn @click="dialogLegal = false" variant="text">{{ $t('common.close') }}</VBtn>
         </template>
       </LandingLegalNotice>
     </VDialog>
-    <VDialog v-model="dialogCopyright" class="d-flex align-center h-100" max-width="800">
+    <VDialog v-model="dialogCopyright" scrollable class="d-flex align-center h-100" max-width="800">
       <LandingCopyright>
-        <template #titleAppend>
-          <VBtn @click="dialogCopyright = false" icon="mdi-close" variant="text"></VBtn>
+        <template #actions>
+          <VSpacer />
+          <VBtn @click="dialogCopyright = false" variant="text">{{ $t('common.close') }}</VBtn>
         </template>
       </LandingCopyright>
     </VDialog>
-    <VDialog v-model="dialogPrivacyPolicy" class="d-flex align-center h-100" max-width="800">
+    <VDialog v-model="dialogPrivacyPolicy" scrollable class="d-flex align-center h-100" max-width="800">
       <LandingPrivacyPolicy>
-        <template #titleAppend>
-          <VBtn @click="dialogPrivacyPolicy = false" icon="mdi-close" variant="text"></VBtn>
+        <template #actions>
+          <VSpacer />
+          <VBtn @click="dialogPrivacyPolicy = false" variant="text">{{ $t('common.close') }}</VBtn>
         </template>
       </LandingPrivacyPolicy>
     </VDialog>

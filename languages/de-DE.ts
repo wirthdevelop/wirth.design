@@ -1,4 +1,7 @@
 export default {
+    common: {
+        close: "schließen"
+    },
     root: {
         title: "wirth.design",
         description: "Design & Software-Entwicklung",
