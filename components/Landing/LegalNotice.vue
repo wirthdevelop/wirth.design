@@ -4,7 +4,7 @@
       <div class="mt-4 ml-2 text-h5">{{ $t('legal.title') }}</div>
     </VCardTitle>
 
-    <VCardText>
+    <VCardText class="text-body-2">
       <p>{{ $t('address.name') }}</p>
       <p>{{ $t('address.street') }}</p>
       <p>{{ $t('address.city') }}</p>

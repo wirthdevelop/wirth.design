@@ -4,7 +4,7 @@
       <div class="mt-4 ml-2 text-h5">{{ $t('privacyPolicy.title') }}</div>
     </VCardTitle>
 
-    <VCardText>
+    <VCardText class="text-body-2">
       <p class="text-h6">{{ $t('privacyPolicy.generalInformation.title') }}</p>
       <p class="mt-4">{{ $t('privacyPolicy.generalInformation.text') }}</p>
 
@@ -17,7 +17,7 @@
 
       <p class="mt-4 text-h6">{{ $t('privacyPolicy.dataCollection.title') }}</p>
 
-      <p class="mt-4">{{ $t('privacyPolicy.dataCollection.subtitle.serverLog') }}</p>
+      <p class="mt-4 text-subtitle-1">{{ $t('privacyPolicy.dataCollection.subtitle.serverLog') }}</p>
       <ul class="mt-4 ml-4">
         <li>{{ $t('privacyPolicy.dataCollection.text.serverLog.point_1') }}</li>
         <li>{{ $t('privacyPolicy.dataCollection.text.serverLog.point2') }}</li>
@@ -28,21 +28,21 @@
       </ul>
       <p class="mt-4">{{ $t('privacyPolicy.dataCollection.text.serverLog.info') }}</p>
 
-      <p class="mt-4">{{ $t('privacyPolicy.dataCollection.subtitle.contactForm') }}</p>
+      <p class="mt-4 text-subtitle-1">{{ $t('privacyPolicy.dataCollection.subtitle.contactForm') }}</p>
       <p class="mt-4">{{ $t('privacyPolicy.dataCollection.text.contactForm') }}</p>
 
       <p class="mt-4 text-h6">{{ $t('privacyPolicy.yourRights.title') }}</p>
 
-      <p class="mt-4">{{ $t('privacyPolicy.yourRights.subtitle.rightToControl') }}</p>
+      <p class="mt-4 text-subtitle-1">{{ $t('privacyPolicy.yourRights.subtitle.rightToControl') }}</p>
       <p class="mt-4">{{ $t('privacyPolicy.yourRights.text.rightToControl') }}</p>
 
-      <p class="mt-4">{{ $t('privacyPolicy.yourRights.subtitle.rightToRevoke') }}</p>
+      <p class="mt-4 text-subtitle-1">{{ $t('privacyPolicy.yourRights.subtitle.rightToRevoke') }}</p>
       <p class="mt-4">{{ $t('privacyPolicy.yourRights.text.rightToRevoke') }}</p>
 
-      <p class="mt-4">{{ $t('privacyPolicy.yourRights.subtitle.rightToPortability') }}</p>
+      <p class="mt-4 text-subtitle-1">{{ $t('privacyPolicy.yourRights.subtitle.rightToPortability') }}</p>
       <p class="mt-4">{{ $t('privacyPolicy.yourRights.text.rightToPortability') }}</p>
 
-      <p class="mt-4">{{ $t('privacyPolicy.yourRights.subtitle.rightToLodgeAComplaint') }}</p>
+      <p class="mt-4 text-subtitle-1">{{ $t('privacyPolicy.yourRights.subtitle.rightToLodgeAComplaint') }}</p>
       <p class="mt-4">{{ $t('privacyPolicy.yourRights.text.rightToLodgeAComplaint') }}</p>
 
       <p class="mt-4 text-h6">{{ $t('privacyPolicy.dataToThirtParties.title') }}</p>

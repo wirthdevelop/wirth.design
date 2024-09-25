@@ -4,7 +4,7 @@
       <div class="mt-4 ml-2  text-h5">{{ $t('legal.copyright.title') }}</div>
     </VCardTitle>
 
-    <VCardText>
+    <VCardText class="text-body-2">
       <p>{{ $t('legal.copyright.textCopyright') }}</p>
       <p class="mt-4">{{ $t('legal.copyright.textWaring') }}</p>
     </VCardText>
