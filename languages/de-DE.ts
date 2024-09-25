@@ -55,7 +55,7 @@ export default {
             title: "3. Datenerfassung auf unserer Webseite",
             subtitle: {
                 serverLog: "a) Server-Log-Dateien",
-                contactForm: "b) Kontaktformular",
+                contactForm: "b) Kontakt über E-Mail oder LinkedIn",
             },
             text: {
                 serverLog: {
@@ -66,9 +66,10 @@ export default {
                     point4: "Hostname des zugreifenden Rechners",
                     point5: "Uhrzeit der Serveranfrage",
                     point6: "IP-Adresse",
-                    info: "Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden."
+                    info: "Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Ich behalte mir vor, diese Daten nachträglich zu prüfen, wenn mir konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden."
                 },
-                contactForm: "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter."
+                contactForm: "Wenn Sie mich per E-Mail oder über LinkedIn kontaktieren, werden Ihre Angaben inklusive der von Ihnen angegebenen Kontaktdaten zwecks Bearbeitung Ihrer Anfrage und für den Fall von Anschlussfragen bei mir gespeichert. Diese Daten gebe ich nicht ohne Ihre Einwilligung weiter.",
+                linkedInDisclaimer: "Bitte beachten Sie, dass bei einer Kontaktaufnahme über LinkedIn die Datenverarbeitung auf der LinkedIn-Plattform außerhalb meines Einflussbereichs liegt. LinkedIn ist eine eigenständige Plattform mit eigenen Datenschutzrichtlinien. Ich bin nicht verantwortlich für die Datenverarbeitung, die auf LinkedIn stattfindet. Weitere Informationen entnehmen Sie bitte der Datenschutzerklärung von LinkedIn."
             },
         },
         yourRights: {
@@ -81,8 +82,8 @@ export default {
             },
             text: {
                 rightToControl: "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.",
-                rightToRevoke: "Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.",
-                rightToPortability: "Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen.",
+                rightToRevoke: "Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an mich. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.",
+                rightToPortability: "Sie haben das Recht, Daten, die ich auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeite, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen.",
                 rightToLodgeAComplaint: "Im Falle datenschutzrechtlicher Verstöße steht dem Betroffenen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu."
             }
         },
@@ -92,11 +93,11 @@ export default {
         },
         dataSecurity: {
             title: "6. Datensicherheit",
-            text: "Wir verwenden innerhalb des Website-Besuchs das verbreitete SSL-Verfahren (Secure Socket Layer) in Verbindung mit der jeweils höchsten Verschlüsselungsstufe, die von Ihrem Browser unterstützt wird."
+            text: "Ich verwende innerhalb des Website-Besuchs das verbreitete SSL-Verfahren (Secure Socket Layer) in Verbindung mit der jeweils höchsten Verschlüsselungsstufe, die von Ihrem Browser unterstützt wird."
         },
         changes: {
             title: "7. Änderung dieser Datenschutzerklärung",
-            text: "Wir behalten uns vor, diese Datenschutzerklärung gelegentlich anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen."
+            text: "Ich behalte mir vor, diese Datenschutzerklärung gelegentlich anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen meiner Leistungen in der Datenschutzerklärung umzusetzen."
         }
     }
 }

@@ -30,6 +30,7 @@
 
       <p class="mt-4 text-subtitle-1">{{ $t('privacyPolicy.dataCollection.subtitle.contactForm') }}</p>
       <p class="mt-4">{{ $t('privacyPolicy.dataCollection.text.contactForm') }}</p>
+      <p class="mt-4">{{ $t('privacyPolicy.dataCollection.text.linkedInDisclaimer') }}</p>
 
       <p class="mt-4 text-h6">{{ $t('privacyPolicy.yourRights.title') }}</p>
 
